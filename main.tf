@@ -9,6 +9,12 @@ terraform {
       version = "5.22.0"
     }
   }
+  cloud {
+    organization = "Omwa_Terraform_Bootcamp"
+    workspaces {
+      name = "terra-house-1"
+    }
+  }
 }
 
 provider "aws" {
