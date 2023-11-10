@@ -1,5 +1,36 @@
 # Terraform Beginner Bootcamp 2023
 
+## Table of Content
+
+- [Terraform Beginner Bootcamp 2023](#terraform-beginner-bootcamp-2023)
+    + [Semantic Versioning :mage:](#semantic-versioning--mage-)
+  * [Install the Terraform CLI](#install-the-terraform-cli)
+    + [Considerations with the Teffaform CLI changes](#considerations-with-the-teffaform-cli-changes)
+    + [Considerations for Linux Distribution](#considerations-for-linux-distribution)
+    + [Refactoring into Bash Scripts](#refactoring-into-bash-scripts)
+      - [Shebang Considerations](#shebang-considerations)
+      - [Executions Considerations](#executions-considerations)
+      - [Linux Permissions Considerations](#linux-permissions-considerations)
+    + [Gitpod Lifecycle (Before, Inin, Command)](#gitpod-lifecycle--before--inin--command-)
+    + [Working with Env Vars](#working-with-env-vars)
+      - [Setting and Unsetting Env Vars](#setting-and-unsetting-env-vars)
+      - [Printing Vars](#printing-vars)
+      - [Scping of Env Vars](#scping-of-env-vars)
+      - [Persisting Env Vars in Gitpod](#persisting-env-vars-in-gitpod)
+    + [AWS CLI Installation](#aws-cli-installation)
+  * [Terraform Bassics](#terraform-bassics)
+    + [Terraform Registry](#terraform-registry)
+    + [Terraform Console](#terraform-console)
+      - [Terraform Init](#terraform-init)
+      - [Terraform Plan](#terraform-plan)
+      - [Terrafrom Apply](#terrafrom-apply)
+    + [Terraform destroy](#terraform-destroy)
+    + [Teraform Lock Files](#teraform-lock-files)
+    + [Terraform State Files](#terraform-state-files)
+    + [Terraform Directory](#terraform-directory)
+- [<<<<<<< Updated upstream](#--------updated-upstream)
+  * [Issues with Terraform cloud Login and Gitpod Workspace](#issues-with-terraform-cloud-login-and-gitpod-workspace)
+
 ### Semantic Versioning :mage:
 
 This project is going to utilize semantic versioning for its tagging.
@@ -238,3 +269,4 @@ Provide the following code (replace your token in the file)
 >>>>>>> Stashed changes
 
 We have automated this workaround with the following bash script [bin/generate_tfrc_credentials](bin/generate_tfrc_credentials)
+
